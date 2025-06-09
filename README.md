@@ -9,9 +9,9 @@ on the seL4 microkernel.
 ## Getting Started
 
 The `setup_camkes_x86.sh` script downloads the official `camkes-manifest` using
-the `repo` tool and configures an x86_64 build directory. It assumes you have
-installed the required dependencies (git, repo, build-essential, python3,
-cmake, ninja-build, etc.).
+the `repo` tool and configures an x86_64 build directory. When run as root on a
+Debian/Ubuntu system, it will install the few required tools (`repo`, `git`,
+`cmake`, and `ninja-build`) if they are missing.
 
 Run the following to fetch sources and build the example:
 
