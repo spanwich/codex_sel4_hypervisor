@@ -1,0 +1,4 @@
+# Ignore build directories and manifest checkouts
+seL4-project/
+*.pyc
+__pycache__/
